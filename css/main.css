@@ -196,8 +196,10 @@ iframe {
 
 input.input1 {
   height: 50px;
-  border-radius: 25px;
+  border-radius: 0px;
   padding: 0 30px;
+  border-bottom: 2px solid#C02026;
+
 }
 input.input1 + .shadow-input1 {
   border-radius: 25px;
@@ -205,8 +207,9 @@ input.input1 + .shadow-input1 {
 
 textarea.input1 {
   min-height: 150px;
-  border-radius: 25px;
+  border-radius: 0px;
   padding: 12px 30px;
+  border-bottom: 2px solid#C02026;
 }
 textarea.input1 + .shadow-input1 {
   border-radius: 25px;
@@ -270,7 +273,6 @@ textarea.input1 + .shadow-input1 {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .contact1-form-btn {
