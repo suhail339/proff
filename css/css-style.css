@@ -675,7 +675,7 @@ text-align: center;
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #dc3545;
 }
 
 .mobile-nav {
@@ -787,7 +787,10 @@ text-align: left;
 #hero h1 span {
   color: #000;
 }
-#hero .col-lg-12.d-flex.align-items-end div{  background: rgba(255, 255, 255, 0.8); padding:40px;width: 100%;
+#hero .col-lg-12.d-flex.align-items-end div{  
+  background: #fffc;
+  padding:40px;
+  width: 100%;
 }
 #hero h2 {
   color:black;
